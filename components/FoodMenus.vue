@@ -1,5 +1,8 @@
 <template>
   <div class="food-menus visible">
+    <noscript>
+      Please enable JavaScript in order to view our menu
+    </noscript>
     <div
       v-for="(menu, menuIndex) in menus"
       :key="`menu-${menuIndex}`"
