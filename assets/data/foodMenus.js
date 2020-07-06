@@ -297,7 +297,7 @@ const menuData = {
               title: "malaysian poutine",
               price: 14,
               description:
-                "malaysia meets montréal: our chicken curry sauce, served over our house fries, mixed with fresh cheese curds, fried shallots & cilantro for a fantastic fusion of flavours",
+                "Malaysia meets Montréal: our chicken curry sauce, served over our house fries, mixed with fresh cheese curds, fried shallots & cilantro for a fantastic fusion of flavours",
               addons: [
                 {
                   title: "+ bacon",
@@ -316,7 +316,7 @@ const menuData = {
               meatFree: true,
               price: 9,
               description:
-                "flakey pan–fried malaysian flatbread with a side of either lentil or chicken curry sauce for dipping"
+                "flakey pan–fried Malaysian flatbread with a side of either lentil or chicken curry sauce for dipping"
             },
             // {
             // 	title: "calamari",
@@ -387,7 +387,7 @@ const menuData = {
         {
           title: "west",
           description:
-            "All sandwiches come with house salad or fries. Substitue for truffled fries, sweet potato fries or caesar salad for $2. Substitute for malaysian poutine for $4.",
+            "All sandwiches come with house salad or fries. Substitue for truffled fries, sweet potato fries or caesar salad for $2. Substitute for Malaysian poutine for $4.",
           items: [
             // {
             // 	title: "chicken club wrap",

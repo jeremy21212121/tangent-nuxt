@@ -10,7 +10,7 @@
       >2095 Commercial Drive</a>
     </p>
     <p>Vancouver BC, V5N 4A9</p>
-    <p>tel: 604 558 4641</p>
+    <p><a href="tel:+16045584641">tel: 604 558 4641</a></p>
 
     <div class="map">
       <div id="static-map">
@@ -26,3 +26,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+p a {
+  text-decoration-color: rgba(0,0,0,0.3);
+}
+@media screen and (min-width: 699px) {
+  p {
+    font-size: 1.1rem;
+  }
+}
+</style>

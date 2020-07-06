@@ -51,12 +51,17 @@ export default {
 
 <style scoped>
 p {
+  margin: 6px auto;
   padding-top: 4px;
   text-transform: lowercase;
+  font-size: 0.9rem;
 }
 p.today {
+  padding: 4px 2px;
   background-color: rgba(255,255,255,0.42);
   border-radius: 3px;
+  max-width: 600px;
+  font-weight: bold;
 }
 p span {
   display: block;
@@ -64,6 +69,9 @@ p span {
 }
 
 @media screen and (min-width: 699px) {
+  p {
+    font-size: 1.1rem;
+  }
   p span {
     display: inline;
   }

@@ -5,48 +5,19 @@
 </template>
 
 <style>
-/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
-
-/*
-* What follows is the result of much research on cross-browser styling.
-* Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
-* Kroc Camen, and the H5BP dev community and team.
-*/
-
-/* ==========================================================================
-Base styles: opinionated defaults
-========================================================================== */
-
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
-
-/*
-* Remove text-shadow in selection highlight:
-* https://twitter.com/miketaylr/status/12228805301
-*
-* Vendor-prefixed and regular ::selection selectors cannot be combined:
-* https://stackoverflow.com/a/16982510/7133471
-*
-* Customize the background color to match your design.
-*/
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
-
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
-
-/*
-* A better looking default horizontal rule
-*/
-
 hr {
   display: block;
   height: 1px;
@@ -55,13 +26,6 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
-/*
-* Remove the gap between audio, canvas, iframes,
-* images, videos and the bottom of their containers:
-* https://github.com/h5bp/html5-boilerplate/issues/440
-*/
-
 audio,
 canvas,
 iframe,
@@ -70,39 +34,22 @@ svg,
 video {
   vertical-align: middle;
 }
-
-/*
-* Remove default fieldset styles.
-*/
-
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
-
-/*
-* Allow only vertical resizing of textareas.
-*/
-
 textarea {
   resize: vertical;
 }
-
-/* ==========================================================================
-Browser Upgrade Prompt
-========================================================================== */
-
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
 }
-
 /* ==========================================================================
-Author's custom styles
-========================================================================== */
+Author's custom styles */
 @font-face {
   font-family: 'raleway';
   src: url('../static/font/raleway-regular-webfont.woff2') format('woff2'),
@@ -119,37 +66,19 @@ Author's custom styles
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-font-family: 'courierprime';
-src: url('../font/courier_prime_bold-webfont.woff2') format('woff2'),
-url('../font/courier_prime_bold-webfont.woff') format('woff'),
-url('../font/courier_prime_bold-webfont.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-} */
-
 html {
   scroll-behavior: smooth;
 }
 body {
-  /* font-size: 1em; */
-  /* background-color: rgba(255, 221, 121, 0.8); */
   background: #ffdd79;
-  /* background: radial-gradient(circle farthest-corner at center center, #ffdd79 70%, #ffe393 100%);
-  background: -webkit-radial-gradient(circle farthest-corner at center center, #ffdd79 70%, #ffe393 100%); */
   background: linear-gradient(180deg,#ffe393 0%, #ffdd79 10%, #ffdd79 90%, #ffe393 100%);
   background: -webkit-linear-gradient(180deg,#ffe393 0%, #ffdd79 10%, #ffdd79 90%, #ffe393 100%);
   color: #333;
   font-family: "courierprime", Courier, monospace;
   margin:3px;
-  /* transition: all 1s ease; */
-  /* scroll-behavior: smooth; */
 }
 .site-container {
   border-radius: 16px;
-  /* padding-top: 20px; */
-  /* background-color: #ffdd79; */
-  /* background-color: rgba(255, 221, 121, 0.3); */
   max-width: 900px;
   width: 100%;
   min-width: 340px;
@@ -161,6 +90,10 @@ body {
 }
 a {
   color: #333;
+  text-decoration-color: rgba(0, 0, 0, 0.4);
+}
+div.addon-wrapper {
+  width: 100%;
 }
 #logo {
   display: block;
@@ -171,13 +104,12 @@ a {
 #nav {
   padding:0;
   font-family: "raleway";
-  /* padding-left: 5%; */
   list-style-type: none;
   text-align: center;
   margin-bottom: 60px;
 }
 #nav li {
-  width: 23%;
+  width: 28%;
   display: inline-block;
 }
 #nav li.fullwidth {
@@ -185,7 +117,7 @@ a {
 }
 #motto {
   text-align: center;
-  width:50%;
+  width:75%;
   max-width: 401px;
   margin: 0 auto;
 }
@@ -200,22 +132,27 @@ a {
   border: 2px solid #333;
   text-transform: uppercase;
 }
-div#food-menus {
+div.food-menus {
   font-family: "raleway", sans-serif;
 }
-div#food-menus h2 {
+div.food-menus h2 {
   text-transform: uppercase;
   font-size: 0.9em;
 }
 
-div#food-menus h3 {
+div.food-menus h3 {
+  padding-left: 4px;
   text-transform: uppercase;
   font-size: 0.8em;
 }
-div#food-menus p {
+div.food-menus h4 {
+  text-transform: uppercase;
+  font-size: 0.8em
+}
+div.food-menus p {
   font-size: 0.8em;
 }
-div#food-menus p.hide a {
+div.food-menus p.hide a {
   /* font-size: 16px; */
   font-size: 1.25em;
 }
@@ -277,15 +214,15 @@ section {
   display: inline-block;
   width: 23%;
 }
-#food-menus {
+.food-menus {
   opacity: 0;
   transition: opacity 1s ease;
   text-align: left;
 }
-#food-menus.visible {
+.food-menus.visible {
   opacity: 1;
 }
-#breakfast, #dinner {
+#breakfast, #dinner, .drinks {
   max-height: 0px;
   transition: all 1s ease;
   overflow: hidden;
@@ -319,11 +256,11 @@ div.section div.b-menu-item:last-of-type {
   padding-bottom: 10px;
 }
 
-.b-title h3, p {
+.b-title h3, .b-title h4, p {
   margin: 0;
   padding: 0;
 }
-h3 {
+h3, h4 {
   display: inline-block;
 }
 .addons {
@@ -345,19 +282,23 @@ h3 {
   padding: 4px;
 }
 .flexgrid {
+  width: 80%;
   /*   display: flex; */
-  flex: 80% 0;
+  /* flex: 80% 0; */
   /*   flex-basis: column; */
 }
 .flexgrid-s {
-  flex: 20% 0;
+  /* flex: 20% 0; */
+  width: 20%;
 }
 div.flex-description {
-  flex: 100%;
+  /* flex: 100%; */
+  width: 100%;
 }
 p.hide {
   width: 100%;
   text-align: center;
+  margin-bottom: 12px;
 }
 
 footer img {
@@ -409,12 +350,12 @@ footer img {
   .site-container {
     max-width: 90%;
   }
-  #breakfast, #dinner {
+  #breakfast, #dinner, .drinks {
     transition: all 0.2s ease;
     display: flex;
     flex-wrap: wrap;
   }
-  #breakfast div.section, #dinner div.section {
+  #breakfast div.section, #dinner div.section, .drinks div.section {
     transition: all 1s ease;
     width: 48%;
     margin: 1%;
