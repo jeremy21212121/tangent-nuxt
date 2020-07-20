@@ -411,7 +411,7 @@ const menuData = {
               meatFree: true,
               price: 17,
               description:
-                "bean & veggie patty, breaded & pan fried, topped with guac, lettuce, tomato, onion & garlic aioli"
+                "bean & veggie patty, breaded & pan fried, topped with cheddar, guac, lettuce, tomato, onion & garlic aioli"
             },
             {
               title: "spicy crunchy chicken burger",
