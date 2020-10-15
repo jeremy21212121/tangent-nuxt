@@ -1,6 +1,9 @@
 export default {
   title: "cocktails",
-  description: "Available after 3pm, while supplies last",
+  description: [
+    "Available after 3pm, while supplies last.",
+    "All cocktails are 2oz."
+  ],
   items: [
     {
       title: "strange brew",

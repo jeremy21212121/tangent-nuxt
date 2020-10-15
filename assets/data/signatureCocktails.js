@@ -1,10 +1,11 @@
 export default {
   title: "signature cocktails",
-  description: "Available after 3pm",
+  description: ["Available after 3pm", "All cocktails are 2oz."],
   items: [
     {
       title: "baba yaga",
-      description: "long table texada vodka, odd society cassis liqueur, blackberry cordial, lime, ginger beer",
+      description:
+        "long table texada vodka, odd society cassis liqueur, blackberry cordial, lime, ginger beer",
       prices: [13]
     },
     {
@@ -14,7 +15,8 @@ export default {
     },
     {
       title: "trade winds",
-      description: "sheringham seaside gin, thai basil infused martini bianco, lemon, soda",
+      description:
+        "sheringham seaside gin, thai basil infused martini bianco, lemon, soda",
       prices: [11]
     },
     {
@@ -24,33 +26,39 @@ export default {
     },
     {
       title: "lady grey sour",
-      description: "earl grey infused london dry gin, lemon, ginger syrup, free range egg white",
+      description:
+        "earl grey infused london dry gin, lemon, ginger syrup, free range egg white",
       prices: [12]
     },
     {
       title: "north west negroni",
-      description: "noteworthy new western gin, woods spirit amaro, odd society bittersweet vermouth",
+      description:
+        "noteworthy new western gin, woods spirit amaro, odd society bittersweet vermouth",
       prices: [14]
     },
     {
       title: "sunset de fuca",
-      description: "knob creek maple bourbon, arbutus coven vodka, arbutus birch liqueur, walnut bitters",
+      description:
+        "knob creek maple bourbon, arbutus coven vodka, arbutus birch liqueur, walnut bitters",
       prices: [14]
     },
     {
       title: "pear & thyme smash",
-      description: "long table texada vodka, lemon, thyme syrup, House-Made pear cordial",
+      description:
+        "long table texada vodka, lemon, thyme syrup, House-Made pear cordial",
       prices: [13]
     },
     {
       title: "Round-A-Bout",
-      description: "odd society mongrel white rye, noilly prat vermouth, lillet blanc",
+      description:
+        "odd society mongrel white rye, noilly prat vermouth, lillet blanc",
       prices: [12]
     },
     {
       title: "jungle bird",
-      description: "wayward drunken hive rum, lime, campari, pineapple, simple syrup",
+      description:
+        "wayward drunken hive rum, lime, campari, pineapple, simple syrup",
       prices: [12]
-    },
+    }
   ]
 };
