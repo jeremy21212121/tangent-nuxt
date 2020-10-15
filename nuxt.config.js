@@ -1,11 +1,6 @@
 
 export default {
   /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'universal',
-  /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
