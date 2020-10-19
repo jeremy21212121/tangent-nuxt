@@ -57,7 +57,7 @@ export default {
     {
       title: "jungle bird",
       description:
-        "wayward drunken hive rum, lime, campari, pineapple, simple syrup",
+        "spiced rum, lime, campari, pineapple, simple syrup",
       prices: [12]
     }
   ]
