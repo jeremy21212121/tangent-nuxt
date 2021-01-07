@@ -10,10 +10,15 @@ export default {
           description: "60/40 Merlot/Cab-Franc — BC",
           prices: [12, 28, 40]
         },
+        // {
+        //   title: "Leaping Horse Cabernet Sauvignon",
+        //   description: "BC",
+        //   prices: [11, 24, 35]
+        // },
         {
-          title: "Leaping Horse Cabernet Sauvignon",
+          title: "Averill Creek Prevost Blend",
           description: "BC",
-          prices: [11, 24, 35]
+          prices: [11, 27, 39]
         },
         {
           title: "Nk'Mip Merlot",
@@ -30,11 +35,11 @@ export default {
           description: "Vancouver Island, BC",
           prices: [12.5, 30, 43]
         },
-        {
-          title: "Mayhem Pinot Blanc",
-          description: "BC",
-          prices: [11, 27, 40]
-        },
+        // {
+        //   title: "Mayhem Pinot Blanc",
+        //   description: "BC",
+        //   prices: [11, 27, 40]
+        // },
         {
           title: "Terroso Chardonnay",
           description: "Chile",
