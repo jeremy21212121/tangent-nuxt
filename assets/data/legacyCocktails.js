@@ -5,21 +5,21 @@ export default {
     "All cocktails are 2oz."
   ],
   items: [
-    {
-      title: "strange brew",
-      description: "gin, pineapple, IPA & almond syrup",
-      prices: [9.5]
-    },
+    // {
+    //   title: "strange brew",
+    //   description: "gin, pineapple, IPA & almond syrup",
+    //   prices: [9.5]
+    // },
     {
       title: "paloma",
       description: "tequila, grapefruit, agave",
       prices: [9]
     },
-    {
-      title: "mai tai",
-      description: "rum, citrus, almond syrup",
-      prices: [10]
-    },
+    // {
+    //   title: "mai tai",
+    //   description: "rum, citrus, almond syrup",
+    //   prices: [10]
+    // },
     {
       title: "margarita",
       description: "tequila, lime & triple sec on the rocks",
