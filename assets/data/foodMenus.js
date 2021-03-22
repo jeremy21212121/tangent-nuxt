@@ -43,11 +43,15 @@ const menuData = {
             {
               title: "cheddar omelette",
               meatFree: true,
-              price: 15,
+              price: 13,
               addons: [
                 {
                   title: "+ bacon, ham, breakfast sausage or mushrooms",
-                  price: 18
+                  price: 16
+                },
+                {
+                  title: "+ chorizo sausage or smoked meat",
+                  price: 17
                 }
               ]
             },
@@ -175,24 +179,28 @@ const menuData = {
           items: [
             {
               title: "french toast",
+              description: "sprinkled with icing sugar",
               price: 15
             },
             {
               title: "waffles",
+              description: "four waffles sprinkled with icing sugar",
               price: 15
             },
             {
               title: "pancakes",
+              description: "three large pancakes sprinkled with icing sugar",
               price: 14,
-              addons: {
-                0: {
+              addons: [
+                {
                   title: "+ bananas",
                   price: 16
                 }
-              }
+              ]
             },
             {
               title: "oatmeal",
+              description: "comes with a side of toasted nuts, milk and a fresh orange slice",
               price: 11
             },
             {
@@ -223,7 +231,7 @@ const menuData = {
               price: 3
             },
             {
-              title: "toast",
+              title: "two pieces of toast",
               price: 5
             },
             {
@@ -243,12 +251,94 @@ const menuData = {
               price: 9
             },
             {
+              title: "House-made blueberry or apple-cinnamon compote",
+              price: 3
+            },
+            {
               title: "mashed avocado",
               price: 5
             },
             {
               title: "wild smoked salmon",
               price: 10
+            },
+            {
+              title: "house-made hollandaise sauce",
+              price: 5
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      title: "lunch",
+      footer: [
+        "Available 11am – 2pm, monday – friday. ",
+        "18% gratuity will automatically be charged to parties of six or more."
+      ],
+      categories: [
+        {
+          title: "lunch",
+          description: "All sandwiches come with house salad or fries. Substitue for truffled fries, sweet potato fries or soup for $2.",
+          items: [
+            {
+              title: "daily soup",
+              meatFree: true,
+              price: 8,
+              description: "made from scratch each morning with fresh, seasonal ingredients & served with garlic toast"
+            },
+            {
+              title: "house salad",
+              meatFree: true,
+              price: 11,
+              description:
+                "fresh mixed greens, tomatoes, green onions & grated beets with balsamic vinaigrette",
+              addons: [
+                {
+                  title: "• starter-size",
+                  price: 8
+                },
+                {
+                  title: "+ grilled chicken breast",
+                  price: 6
+                },
+              ]
+            },
+            {
+              title: "chicken club sandwich",
+              price: 17,
+              description: "seasoned chicken breast, bacon, lettuce, tomato, mayo on your choice of toast"
+            },
+            {
+              title: "spicy crunchy chicken burger",
+              price: 18,
+              description:
+                "chicken breast, panko battered & deep–fried, served with lettuce, tomatoes & jalapeños with sambal mayo",
+              addons: [
+                {
+                  title: "+ bacon strips or cheddar cheese",
+                  price: 20
+                }
+              ]
+            },
+            {
+              title: "sante fe chicken burger",
+              price: 17,
+              description: "juicy chicken breast, avocado, jalapeños and cheddar cheese on a brioche bun."
+            },
+            {
+              title: "BBQ bacon burger",
+              meatFree: false,
+              price: 17,
+              description:
+                "beef patty topped with bacon, carmelized onion, lettuce, tomato, mayo, mustard & bbq sauce",
+              addons: [
+                {
+                  title: "+ add cheddar cheese",
+                  price: 19
+                }
+              ]
             }
           ]
         }
@@ -265,12 +355,12 @@ const menuData = {
         {
           title: "start & share",
           items: [
-            // {
-            // 	title: "daily soup",
-            // 	meatFree: true,
-            // 	price: 7.5,
-            // 	description: "made from scratch each morning with fresh, seasonal ingredients & served with garlic toast"
-            // },
+            {
+              title: "daily soup",
+              meatFree: true,
+              price: 8,
+              description: "made from scratch each morning with fresh, seasonal ingredients & served with garlic toast"
+            },
             // {
             // 	title: "dry ribs",
             // 	price: 11,
@@ -353,9 +443,13 @@ const menuData = {
                 "fresh mixed greens, tomatoes, green onions & grated beets with balsamic vinaigrette",
               addons: [
                 {
-                  title: "+ starter-size",
+                  title: "• starter-size",
                   price: 8
-                }
+                },
+                {
+                  title: "+ grilled chicken breast",
+                  price: 6
+                },
               ]
             },
             // 1: {
@@ -380,7 +474,13 @@ const menuData = {
               title: "caesar salad",
               price: 14,
               description:
-                "crisp romaine lettuce with diced bacon, garlic-oil toasted croutons, parmesan & house-made dressing"
+                "crisp romaine lettuce with diced bacon, garlic-oil toasted croutons, parmesan & house-made dressing",
+              addons: [
+                {
+                  title: "+ grilled chicken breast",
+                  price: 6
+                },
+              ]
             }
           ]
         },
