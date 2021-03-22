@@ -181,6 +181,7 @@ p.menus-list-items a {
 }
 .meat-free-legend {
   margin-left: 1%;
+  margin-top: auto;
 }
 section {
   margin-top: 60px;
@@ -222,7 +223,7 @@ section {
 .food-menus.visible {
   opacity: 1;
 }
-#breakfast, #dinner, .drinks {
+#breakfast, #dinner, #lunch, .drinks {
   max-height: 0px;
   transition: all 1s ease;
   overflow: hidden;
@@ -350,18 +351,18 @@ footer img {
   .site-container {
     max-width: 90%;
   }
-  #breakfast, #dinner, .drinks {
+  #breakfast, #lunch, #dinner, .drinks {
     transition: all 0.2s ease;
     display: flex;
     flex-wrap: wrap;
   }
-  #breakfast div.section, #dinner div.section, .drinks div.section {
+  #breakfast div.section, #lunch div.section, #dinner div.section, .drinks div.section {
     transition: all 1s ease;
     width: 48%;
     margin: 1%;
   }
 
-  #breakfast::after,#dinner::after {
+  #breakfast::after, #lunch::after, #dinner::after {
     content: "";
     display: block;
     clear: both;
@@ -382,8 +383,12 @@ footer img {
 
 }
 
-
-
+@media all and (min-width: 1920px) {
+  .content-container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
 
 
 /* ==========================================================================

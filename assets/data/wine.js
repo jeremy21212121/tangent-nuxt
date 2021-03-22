@@ -31,9 +31,9 @@ export default {
       title: "white",
       items: [
         {
-          title: "Alderlea Sauvignon Blanc",
-          description: "Vancouver Island, BC",
-          prices: [12.5, 30, 43]
+          title: "Terroso Chardonnay",
+          description: "Chile",
+          prices: [9.5, 26, 38]
         },
         // {
         //   title: "Mayhem Pinot Blanc",
@@ -41,15 +41,20 @@ export default {
         //   prices: [11, 27, 40]
         // },
         {
-          title: "Terroso Chardonnay",
-          description: "Chile",
-          prices: [9.5, 26, 38]
+          title: "Nagging Doubt Sallows Road Chardonnay",
+          description: "BC",
+          prices: [11, 27, 39]
+        },
+        {
+          title: "Alderlea Sauvignon Blanc",
+          description: "Vancouver Island, BC",
+          prices: [12.5, 30, 43]
         },
         {
           title: "Yellow Tail Bubbles",
           description: "Australia",
           prices: [7, ' ', 36]
-        }
+        },
       ]
     }
   ]
